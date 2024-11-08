@@ -1,0 +1,162 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #6a0dad;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Main Content */
+main {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* About Section */
+#about {
+    padding: 40px;
+    background-color: #f4f4f4;
+    
+    border-radius: 10px;
+    
+}
+
+#about h2 {
+    font-size: 2rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+}
+
+#about ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about ul li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6a0dad;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #4b0082; 
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 40px;
+    background-color: #fff;
+}
+
+#contact h2 {
+    font-size: 2rem;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-size: 1rem;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #6a0dad; /* Purple button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4b0082;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #ffffff;
+    color: #4b0082;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    box-sizing: border-box; 
+    margin-top: auto;
+}
